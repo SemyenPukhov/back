@@ -120,10 +120,6 @@ exports.userLogin = function (req, res) {
     .catch(err => {
       console.log("Catch error");
       // //user doesnt'exist
-      // console.log("user doesnt't exist");
-      // res.status(401).send({
-      //   mailError: true,//   passwordError: false,
-      // });
     });
 }
 
